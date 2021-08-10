@@ -5,7 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Grid, Button, Container, Stack, Typography } from '@material-ui/core';
 // components
 import Page from '../components/Page';
-import { BlogPostCard, BlogPostsSort, BlogPostsSearch } from '../components/_dashboard/blog';
+import { BlogPostCard, BlogPostsSort, BlogPostsSearch } from '../components/dashboardComponents/blog';
 //
 import POSTS from '../_mocks_/blog';
 
