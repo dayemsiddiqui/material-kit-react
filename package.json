@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx ./src",
     "lint:fix": "eslint --fix --ext .js,.jsx ./src",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +65,10 @@
     "@material-ui/styles": "^5.0.0-beta.1",
     "@material-ui/utils": "^5.0.0-beta.0",
     "@testing-library/jest-dom": "^5.14.1",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.4.13",
+    "@types/react": "^17.0.16",
+    "@types/react-dom": "^17.0.9",
     "apexcharts": "^3.27.3",
     "change-case": "^4.1.2",
     "date-fns": "^2.23.0",
@@ -82,6 +87,7 @@
     "react-scripts": "4.0.0",
     "simplebar": "^5.3.5",
     "simplebar-react": "^2.3.5",
+    "typescript": "^4.3.5",
     "web-vitals": "^2.1.0",
     "yup": "^0.32.9"
   },

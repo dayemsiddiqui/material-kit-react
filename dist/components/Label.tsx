@@ -1,3 +1,4 @@
+// @ts-ignore
 import PropTypes from 'prop-types';
 // material
 import { alpha, styled } from '@material-ui/core/styles';
